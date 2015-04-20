@@ -93,8 +93,36 @@ strong{
 	text-decoration: none;
 	color:#00BBFF;
 }
+p{
+	line-height: 25px;
+}
 
 /*--------------detail configuration--------------*/
+
+/*--------------topDecoration--------------*/
+#topDecoration{
+	background-color: black;
+	width:100%;
+	height: 5px;
+}
+#topDecoration div{
+	position:relative;
+	float:left;
+	height: 5px;
+}
+#red{
+	background-color: red;
+	width: 50px;
+}
+#yellow{
+	background-color: yellow;
+	width: 50px;
+}
+#blue{
+	background-color: blue;
+	width: 50px;
+}
+
 
 /*--------------top--------------*/
 #top{
@@ -155,7 +183,7 @@ strong{
 .button{
 	width:100px;
 	height:50px;
-	margin-top:25px;
+	margin-top:20px;
 	background-color:#666666;
 	color:#ffffff;
 	float:right;
@@ -189,7 +217,7 @@ strong{
 	top:155px;
 	margin:auto;
 	width:950px;
-	height:370px;
+	height:420px;
 	padding:25px;
 }
 
