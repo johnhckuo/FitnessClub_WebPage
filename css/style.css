@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------customize content below--------------*/
+
+/*--------------overall configuration--------------*/
+
+body{
+	background-image:url("../img/bg_html.jpg");
+	font-family:cursive;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color:#00BBFF;
+}
+
+
+
+h1{
+	font-size: 40px;
+	margin-bottom:25px;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom:15px;
+
+}
+
+ul{ 
+list-style-type:none; 
+}
+
+li { 
+background-image:url("../img/icon_03.png"); 
+background-repeat:no-repeat; 
+background-position:0 0.4em; 
+padding-left:12px; 
+margin-bottom:10px;
+}
+
+strong{
+	text-decoration: none;
+	color:#00BBFF;
+}
+
+/*--------------detail configuration--------------*/
+
+/*--------------top--------------*/
+#top{
+	
+	width:1000px;
+	height:80px;
+	*border:2px solid black;
+	position:relative;
+	top:25px;
+	margin:auto;
+}
+#menu span{
+		margin-right: 50px;
+}
+#logo{
+	float:left;
+}
+
+#menu{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	float:left;
+}
+
+#share{
+	position:absolute;
+	top:0px;
+	right:50px;
+	float:left;
+}
+
+
+/*--------------main--------------*/
+
+#main{
+	position:relative;
+	top:105px;
+	width:1000px;
+	height: 415px;
+	margin:auto;
+}
+#img1{
+	position:absolute;
+	left:0px;
+	float:left;
+}
+#mainContent{
+	position:absolute;
+	width:260px;
+	height:315px;
+	right:0px;
+	padding:50px;
+	background-color:#444444;
+	color:#AAAAAA;
+}
+
+.button{
+	width:100px;
+	height:50px;
+	margin-top:10px;
+	background-color:#666666;
+	color:#ffffff;
+	float:right;
+	text-align: center;
+	line-height:50px;
+
+}
+.button:hover{
+	background-color:#888888;
+}
+
+/*--------------intro--------------*/
+
+#intro{
+*	border:2px solid black;
+	position:relative;
+	top:125px;
+	width:950px;
+	height:80px;
+	margin:auto;
+	background-color: #ffffff;
+	padding:25px;
+	line-height: 30px;
+}
+
+/*--------------event--------------*/
+
+#event{
+	position:relative;
+	background-color: #ffffff;
+	top:155px;
+	margin:auto;
+	width:950px;
+	height:370px;
+	padding:25px;
+}
+
+#introContent{
+	position: absolute;
+	top:25px;
+}
+
+.intro{
+	position:relative;
+	clear:both;
+	width:900px;
+
+}
+.intro div{
+	position:relative;
+	margin-top:25px;
+	float:left;
+}
+.intro span{
+	position:relative;
+	width:400px;
+	float:left;
+	margin-left:25px;
+	margin-top:25px;
+}
+
+#serviceList{
+	position: absolute;
+	right:25px;
+	top:25px;
+	
+}
+#findUs{
+	position: absolute;
+	right:25px;
+	top:220px;
+	margin-top: 25px;
+	width:310px;
+
+}
+
+.button2{
+	position:absolute;
+	left:0px;
+	top:50px;
+	width:100px;
+	height:50px;
+	margin-top:35px;
+	background-color:#DDDDDD;
+	color:#009FCC;
+	text-align: center;
+	line-height:50px;
+
+}
+
+.button2:hover{
+	background-color:#DDDDDD;
+	color:#000000;
+}
+#input{
+	margin-bottom: 0px;
+	float:left;
+    clear:both;
+}
+#footer{
+	position:relative;
+	width:950px;
+	height:100px;
+	margin:auto;
+	margin-top:35px;
+	top:175px;
+	text-align: center;
+}
